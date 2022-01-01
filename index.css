@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: wheat;
+    background-color: rgb(25, 28, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+:root{
+    --color-primary: #1995ad;
+    --color-secondary: white;
+    --color-projects-bg: #2d4262;
+}
+
+
+
+/* Navigation Bar */
+nav{
+    /* position: fixed;
+    top: 0%; */
+    height: 60px;
+    width: 100%;
+    background-color: #111216;
+    /* background-color: var(--color-primary); */
+}
+
+.cls_profilePic{
+    display: none;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+nav ul{
+margin: 0px;
+padding: 0px;
+display: flex;
+float: right;
+}
+
+nav a{
+    color: var(--color-secondary) ;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding:21px;
+    font-weight: bolder;
+}
+
+a:hover{
+    /* background: #a1d6e2; */
+    color: whea;
+}
+
+nav li{
+    display: inline;
+}
+
+
+
+/* main page */
+#id_navigation {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(190deg,#a1d6e2, #4cb5f5); */
+}
+
+.cls_main{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#id_navigation h1{
+    font-size: 4rem;
+}
+
+#id_navigation h2{
+    font-size: 1.5rem;
+}
+
+#id_navigation #html_bg{
+    font-size: 8rem;
+    padding: 10px;
+    background-color: #111216;
+    /* background-color: #1995ad; */
+    margin-right: 30%;
+    margin-left: 30%;
+    color: white;
+    border-radius: 16px;
+}
+
+
+
+/* Blog Division */
+
+#section_blog{
+    height: 100vh;
+
+}
+
+.cls_blog h1, #section_aboutUs h1{
+    margin: 0%;
+    color: wheat;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section .cls_blog_images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+}
+
+
+section .cls_blog_images ul{
+    list-style: none;
+}
+
+iframe{
+    padding-top: 25px;
+    width: 299%;
+    height: 300%;
+}
+
+hr{ 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* Projects division */
+
+
+#section_projects{
+    padding-bottom: 75px;
+    
+}
+
+.cls_projects h1{
+    margin: 0%;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cls_projects p{
+    padding: 10px 15px;
+    margin: 5px 50px;
+    text-indent: 50px;
+}
+
+.cls_projects_bg{
+    background: #111216;
+    width: 90%;
+    margin: 25px 70px  auto;
+    height: 50vh;
+    border-radius: 16px;
+}
+
+.cls_projects_bg h1{
+    padding: 20px 25px 0px;
+    text-decoration: underline;
+} 
+
+
+.cls_projects_bg img{
+    width: 325px;
+    margin: 12px 30px;
+} 
+
+.cls_project_division{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px;
+}
+
+.cls_project_division p{
+    padding-top: 12px;
+    padding-left: 8px;
+    text-align: justify;
+    margin-right: 25px;
+    margin-top: 0;
+    text-indent: 50px;
+    font-size: 16px;
+} 
+
+/* About us section */
+#section_aboutUs{
+    height: 100vh;
+}
+
+.cls_aboutUs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 13vh;
+}
+
+.cls_grid_in_aboutUs{
+    display: grid;
+    grid-gap: 50px;
+    margin-right: 100px;
+    border-radius: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    background: #111216;
+    margin-left: 25px;
+    padding: 2rem;
+    
+}
+
+#div1{
+    background: #111216;
+    padding: 20px;
+    border-radius: 16px;
+    color: white;
+    height: 62vh;
+    width: 55vh;
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+.cls_grid_in_aboutUs ul{
+    list-style: none;
+}
+
+.cls_grid_in_aboutUs ul li:first-child{
+    
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+  }
+
+  .cls_contact{
+      background-color: #111216;
+      margin-left: 70px;
+      margin-right: 100px;
+      margin-top: 10px;
+      padding: 1px;
+      padding-left: 25px;
+      border-radius: 16px;
+  }

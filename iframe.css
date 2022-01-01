@@ -1,0 +1,22 @@
+div img{
+    margin-right : 50px;
+}
+
+#id_blog_divisions{
+    background-color: #111216;
+    display: flex;
+    padding: 25px;
+    margin: 25px 25px;
+    border-radius: 24px;
+    flex-direction: row; 
+    align-items: center;  
+}
+
+div p{
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 25px;
+    margin-top: 0;
+    text-indent: 75px;
+    font-size: 18px;
+}
